@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
 
-      ipa_url:https://drive.google.com/file/d/1KoA3z73zb18cyuy3TiaJHUobjufJTyMc/view?usp=drivesdk
+      ipa_url: https://drive.google.com/file/d/1KoA3z73zb18cyuy3TiaJHUobjufJTyMc/view?usp=drivesdk
         description: "URL to the decrypted IPA file"
         default: ""
         required: true
